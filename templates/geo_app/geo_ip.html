@@ -4,7 +4,8 @@
 <h1>GEO IP ADDRESS</h1>
 <h3>
     Your IP Address is <b>{{ ip }}</b>. <br />
-    Your Location is <b>{{ country }}</b>.
+    Your Location is <b>{{ country }}</b>. <br />
+    <b>This information <span style="color:red">{{ is_cached|yesno:"was,wasn't" }}</span> cached.</b>
 </h3>
 
 
